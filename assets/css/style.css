@@ -398,14 +398,14 @@ h6 {
 #hero {
   width: 100%;
   height: 60vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: rgb(0, 0, 0, 1)  /*rgba(227, 0, 11, 1)*/ /*url("../img/logo_learning_decision_making.png")*/ top center;
   background-size: cover;
   position: relative;
 }
 
-#hero:before {
+#hero:before { /*A fade covering the picture; set to 0 will remove fading effect */
   content: "";
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0);
   position: absolute;
   bottom: 0;
   top: 0;
