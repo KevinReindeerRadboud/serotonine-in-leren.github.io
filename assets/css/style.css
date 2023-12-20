@@ -398,7 +398,7 @@ h6 {
 #hero {
   width: 100%;
   height: 60vh;
-  background: rgb(0, 0, 0, 1)  /*rgba(227, 0, 11, 1)*/ /*url("../img/logo_learning_decision_making.png")*/ top center;
+  background: #a4ce6d /*rgb(0, 0, 0, 1)*/ /*rgba(227, 0, 11, 1)*/ /*url("../img/montessori2.jpg")*/ top center;
   background-size: cover;
   position: relative;
 }
@@ -757,7 +757,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.9)), url("../img/serotonine.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1023,6 +1023,11 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.square-image {
+  height: 200px; /* Adjust the height as needed to make it square */
+  object-fit: cover; /* This property ensures the image covers the entire container while maintaining its aspect ratio */
+}
+
 .team {
   background: #fff;
   padding: 60px 0;
