@@ -16,11 +16,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #8fc04e;
+  color: #E41E21;
 }
 
 a:hover {
-  color: #a7cd74;
+  color: #FDC51C;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #8fc04e;
+  background: #E41E21;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -87,7 +87,7 @@ h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #8fc04e;
+  color: #E41E21;
 }
 
 #topbar .contact-info i a,
@@ -125,6 +125,10 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   background: #0f0f0f;
+}
+
+.large-title {
+  background: #ffffff00;
 }
 
 #header .logo h1 {
@@ -201,7 +205,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #8fc04e;
+  color: #E41E21;
 }
 
 .navbar .getstarted,
@@ -350,7 +354,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #8fc04e;
+  color: #E41E21;
 }
 
 .navbar-mobile .getstarted,
@@ -397,9 +401,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 60vh;
-  background: #a4ce6d /*rgb(0, 0, 0, 1)*/ /*rgba(227, 0, 11, 1)*/ /*url("../img/montessori2.jpg")*/ top center;
-  background-size: cover;
+  height: 30vh;
+  background: #FDC51C /*rgb(0, 0, 0, 1)*/ /*rgba(227, 0, 11, 1)*/ url("../img/drawings/thinker.png") no-repeat right top;
+  background-size: 25%;
   position: relative;
 }
 
@@ -432,11 +436,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #E41E21;
 }
 
 #hero h2 {
-  color: #eee;
+  color: #E41E21;
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -451,12 +455,13 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #8fc04e;
-  color: #fff;
+  border: 2px solid #E41E21;
+  color: #E41E21;
 }
 
 #hero .btn-get-started:hover {
-  background: #8fc04e;
+  background: #E41E21;
+  color: #fff;
 }
 
 @media (min-width: 1024px) {
@@ -501,8 +506,8 @@ section {
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: #f3f8ec;
-  color: #8fc04e;
+  background: #fdc51c69 ;
+  color: #E41E21 ;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -515,7 +520,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #8fc04e;
+  color: #E41E21 ;
 }
 
 .section-title p {
@@ -538,8 +543,8 @@ section {
   font-weight: 700;
   padding: 8px 20px;
   margin: 0 0 15px 0;
-  background: #f3f8ec;
-  color: #8fc04e;
+  background: #fdc51c69;
+  color: #E41E21;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -757,7 +762,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.9)), url("../img/serotonine.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.6)), url("../img/images/thinking_woman.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -787,8 +792,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #8fc04e;
-  border: 2px solid #8fc04e;
+  background: #E41E21;
+  border: 2px solid #E41E21;
 }
 
 /*--------------------------------------------------------------
@@ -1037,7 +1042,7 @@ section {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  background: #fff;
+  background: #fdc51c69;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1091,14 +1096,14 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #353535;
+  color: #E41E21;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #353535;
 }
 
 .team .member .member-info p {
@@ -1335,11 +1340,11 @@ section {
 # F.A.Q
 --------------------------------------------------------------*/
 .faq {
-  background: #f5faf0;
+  background: #fdc51c69;
 }
 
 .faq .section-title h2 {
-  background: #e9f3dd;
+  background: #fdc51c69;
 }
 
 .faq .faq-list {
@@ -1379,7 +1384,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #cbe1ac;
+  color: #E41E21;
 }
 
 .faq .faq-list .icon-show,
@@ -1404,7 +1409,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #8fc04e;
+  color: #E41E21;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1431,11 +1436,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #8fc04e;
+  color: #E41E21;
   float: left;
   width: 44px;
   height: 44px;
-  background: #f3f8ec;
+  background: #e41e217c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1466,7 +1471,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #8fc04e;
+  background: #FDC51C;
   color: #fff;
 }
 
